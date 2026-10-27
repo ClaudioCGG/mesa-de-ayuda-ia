@@ -1,0 +1,1151 @@
+=== EXPEDIENTES DE MAILS — Cliente Ejemplo ===
+Total de hilos: 64
+
+─────────────────────────────────────────
+HILO #1 — Factura abril - urgente
+ID: h0001
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 20/05/2026 17:54
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Buenas, necesito la factura del mes de abril, ¿la pueden mandar de nuevo? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 22/05/2026 10:32
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: application/pdf
+Texto: Hola, Las facturas se envían el día 5 de cada mes a la casilla de compras de ustedes y además quedan guardadas en la carpeta compartida de Drive "Facturas 2026", ordenadas por mes. Les reenviamos la de abril adjunta. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #2 — Factura con datos mal
+ID: h0002
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 04/01/2026 10:28
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: La factura salió con el CUIT equivocado, ¿cómo la corregimos? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 05/01/2026 10:25
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Una factura electrónica no se puede modificar una vez emitida. El procedimiento es emitir una nota de crédito que anule la factura original y luego una factura nueva con los datos correctos. Para hacerlo necesitamos el número de la factura y los datos correctos del cliente. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #3 — ¿Cuándo se paga el IVA?
+ID: h0003
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 12/08/2026 11:39
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿Cuándo vence el IVA de julio? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 12/08/2026 14:39
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, El IVA vence según la terminación del CUIT: para ustedes (terminación 7) vence el día 22 del mes siguiente. Además, el calendario completo del año está en la carpeta compartida "Vencimientos 2026" y les enviamos un recordatorio 5 días antes de cada vencimiento. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #4 — Les paso el pago
+ID: h0004
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 04/08/2026 09:49
+De: admin@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Adjunto foto del pago que hicimos ayer. Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 05/08/2026 10:14
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #5 — Nota de crédito
+ID: h0005
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 05/09/2026 10:29
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nos devolvió mercadería, ¿cómo hacemos la nota de crédito? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 06/09/2026 10:48
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #6 — Factura para cliente de Uruguay
+ID: h0006
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 16/10/2025 10:36
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 17/10/2025 10:04
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #7 — Consulta tipo de factura
+ID: h0007
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 01/10/2025 12:13
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nuevo es monotributista, ¿qué tipo de factura le corresponde? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 02/10/2025 10:04
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Ustedes son responsables inscriptos: a otro responsable inscripto le corresponde factura A; a monotributistas, exentos y consumidores finales, factura B. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #8 — No encuentro la factura
+ID: h0008
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 16/02/2026 14:05
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Hola, ¿me pueden reenviar la factura de enero? No la encuentro en el mail. Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 17/02/2026 16:05
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: application/pdf
+Texto: Hola, Las facturas se envían el día 5 de cada mes a la casilla de compras de ustedes y además quedan guardadas en la carpeta compartida de Drive "Facturas 2026", ordenadas por mes. Les reenviamos la de enero adjunta. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 17/02/2026 19:05
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #9 — Factura con datos mal
+ID: h0009
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 06/10/2025 09:29
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Detectamos que la factura tiene un error en el CUIT del cliente. ¿Qué hacemos? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 07/10/2025 10:32
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Una factura electrónica no se puede modificar una vez emitida. El procedimiento es emitir una nota de crédito que anule la factura original y luego una factura nueva con los datos correctos. Para hacerlo necesitamos el número de la factura y los datos correctos del cliente. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #10 — Vencimiento IVA
+ID: h0010
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 07/12/2025 15:41
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Hola, ¿me confirman la fecha de vencimiento del IVA de este mes? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 08/12/2025 10:00
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, El IVA vence según la terminación del CUIT: para ustedes (terminación 7) vence el día 22 del mes siguiente. Además, el calendario completo del año está en la carpeta compartida "Vencimientos 2025" y les enviamos un recordatorio 5 días antes de cada vencimiento. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #11 — Pago proveedor
+ID: h0011
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 31/07/2026 13:56
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Les mando la captura de la transferencia al proveedor para que la registren. Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 01/08/2026 18:56
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 01/08/2026 21:56
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #12 — Pedido de NC
+ID: h0012
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 18/01/2026 16:16
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesitamos emitir una nota de crédito por una devolución. ¿Qué datos les pasamos? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 19/01/2026 10:04
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 19/01/2026 13:04
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #13 — Factura para cliente de Uruguay
+ID: h0013
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 08/10/2025 14:23
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 09/10/2025 18:23
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #14 — Factura A o B
+ID: h0014
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 02/01/2026 11:19
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿A un monotributista le hacemos factura A o B? Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 03/01/2026 12:19
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Ustedes son responsables inscriptos: a otro responsable inscripto le corresponde factura A; a monotributistas, exentos y consumidores finales, factura B. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #15 — Factura marzo - urgente
+ID: h0015
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 17/04/2026 16:38
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Hola, ¿me pueden reenviar la factura de marzo? No la encuentro en el mail. Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 18/04/2026 10:02
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: application/pdf
+Texto: Hola, Las facturas se envían el día 5 de cada mes a la casilla de compras de ustedes y además quedan guardadas en la carpeta compartida de Drive "Facturas 2026", ordenadas por mes. Les reenviamos la de marzo adjunta. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 18/04/2026 13:02
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #16 — Error en CUIT de la factura
+ID: h0016
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 09/02/2026 15:52
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Hola, la última factura tiene mal la razón social. ¿Se puede modificar? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 10/02/2026 16:52
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Una factura electrónica no se puede modificar una vez emitida. El procedimiento es emitir una nota de crédito que anule la factura original y luego una factura nueva con los datos correctos. Para hacerlo necesitamos el número de la factura y los datos correctos del cliente. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 10/02/2026 19:52
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #17 — Vencimiento IVA
+ID: h0017
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 14/07/2026 10:17
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesito saber hasta cuándo tenemos para pagar el IVA de junio. Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 14/07/2026 14:17
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, El IVA vence según la terminación del CUIT: para ustedes (terminación 7) vence el día 22 del mes siguiente. Además, el calendario completo del año está en la carpeta compartida "Vencimientos 2026" y les enviamos un recordatorio 5 días antes de cada vencimiento. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #18 — Les paso el pago
+ID: h0018
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 05/02/2026 09:02
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Adjunto foto del pago que hicimos ayer. Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 05/02/2026 13:02
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 05/02/2026 16:02
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #19 — Pedido de NC
+ID: h0019
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 19/03/2026 17:37
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nos devolvió mercadería, ¿cómo hacemos la nota de crédito? Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 20/03/2026 10:37
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #20 — Factura para cliente de Uruguay
+ID: h0020
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 18/10/2025 09:38
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 19/10/2025 10:08
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 19/10/2025 13:08
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #21 — Consulta tipo de factura
+ID: h0021
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 23/10/2025 11:50
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿A un monotributista le hacemos factura A o B? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 24/10/2025 17:50
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Ustedes son responsables inscriptos: a otro responsable inscripto le corresponde factura A; a monotributistas, exentos y consumidores finales, factura B. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #22 — Factura de abril
+ID: h0022
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 02/05/2026 09:55
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Hola, no me llegó la factura de abril. ¿Me la envían? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 03/05/2026 10:00
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: application/pdf
+Texto: Hola, Las facturas se envían el día 5 de cada mes a la casilla de compras de ustedes y además quedan guardadas en la carpeta compartida de Drive "Facturas 2026", ordenadas por mes. Les reenviamos la de abril adjunta. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 03/05/2026 13:00
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #23 — Error en CUIT de la factura
+ID: h0023
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 09/02/2026 15:46
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Detectamos que la factura tiene un error en el CUIT del cliente. ¿Qué hacemos? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 10/02/2026 10:29
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Una factura electrónica no se puede modificar una vez emitida. El procedimiento es emitir una nota de crédito que anule la factura original y luego una factura nueva con los datos correctos. Para hacerlo necesitamos el número de la factura y los datos correctos del cliente. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #24 — Vencimiento IVA
+ID: h0024
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 21/06/2026 09:19
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Hola, ¿me confirman la fecha de vencimiento del IVA de este mes? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 21/06/2026 18:19
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, El IVA vence según la terminación del CUIT: para ustedes (terminación 7) vence el día 22 del mes siguiente. Además, el calendario completo del año está en la carpeta compartida "Vencimientos 2026" y les enviamos un recordatorio 5 días antes de cada vencimiento. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #25 — Les paso el pago
+ID: h0025
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 11/08/2026 16:16
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Adjunto foto del pago que hicimos ayer. Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 12/08/2026 15:16
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #26 — Nota de crédito
+ID: h0026
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 25/03/2026 16:31
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesitamos emitir una nota de crédito por una devolución. ¿Qué datos les pasamos? Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 26/03/2026 10:40
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #27 — Exportación
+ID: h0027
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 11/01/2026 12:24
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿Cómo facturamos una venta a un cliente del exterior? Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 11/01/2026 18:24
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #28 — Factura A o B
+ID: h0028
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 21/10/2025 10:17
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nuevo es monotributista, ¿qué tipo de factura le corresponde? Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 22/10/2025 10:59
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Ustedes son responsables inscriptos: a otro responsable inscripto le corresponde factura A; a monotributistas, exentos y consumidores finales, factura B. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #29 — Comprobante de pago
+ID: h0029
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 17/08/2026 17:31
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Hola, les paso el pantallazo del pago a Transportes del Sur. Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 18/08/2026 10:04
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 18/08/2026 13:04
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #30 — Venta al exterior
+ID: h0030
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 21/02/2026 14:19
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 22/02/2026 10:12
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #31 — ¿Cuándo se paga el IVA?
+ID: h0031
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 30/01/2026 11:50
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿Cuándo vence el IVA de diciembre? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 30/01/2026 16:50
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, El IVA vence según la terminación del CUIT: para ustedes (terminación 7) vence el día 22 del mes siguiente. Además, el calendario completo del año está en la carpeta compartida "Vencimientos 2026" y les enviamos un recordatorio 5 días antes de cada vencimiento. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #32 — Factura para cliente de Uruguay
+ID: h0032
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 10/01/2026 12:52
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 11/01/2026 14:52
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #33 — Reenvío factura
+ID: h0033
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 31/12/2025 12:17
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Hola, no me llegó la factura de noviembre. ¿Me la envían? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 31/12/2025 16:17
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: application/pdf
+Texto: Hola, Las facturas se envían el día 5 de cada mes a la casilla de compras de ustedes y además quedan guardadas en la carpeta compartida de Drive "Facturas 2025", ordenadas por mes. Les reenviamos la de noviembre adjunta. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #34 — Venta al exterior
+ID: h0034
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 17/04/2026 11:28
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 18/04/2026 10:36
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #35 — Venta al exterior
+ID: h0035
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 13/01/2026 10:46
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 13/01/2026 14:46
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #36 — Consulta tipo de factura
+ID: h0036
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 14/03/2026 13:58
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿A un monotributista le hacemos factura A o B? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 15/03/2026 10:21
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Ustedes son responsables inscriptos: a otro responsable inscripto le corresponde factura A; a monotributistas, exentos y consumidores finales, factura B. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #37 — Les paso el pago
+ID: h0037
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 15/10/2025 12:51
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Les mando la captura de la transferencia al proveedor para que la registren. Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 16/10/2025 10:21
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #38 — Pedido de NC
+ID: h0038
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 23/06/2026 16:56
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nos devolvió mercadería, ¿cómo hacemos la nota de crédito? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 24/06/2026 10:33
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #39 — Pedido de NC
+ID: h0039
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 24/08/2026 11:33
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesitamos emitir una nota de crédito por una devolución. ¿Qué datos les pasamos? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 25/08/2026 10:33
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #40 — Consulta tipo de factura
+ID: h0040
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 09/08/2026 12:19
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nuevo es monotributista, ¿qué tipo de factura le corresponde? Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 10/08/2026 10:34
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Ustedes son responsables inscriptos: a otro responsable inscripto le corresponde factura A; a monotributistas, exentos y consumidores finales, factura B. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #41 — Pedido de NC
+ID: h0041
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 12/04/2026 09:34
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesitamos emitir una nota de crédito por una devolución. ¿Qué datos les pasamos? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 13/04/2026 10:05
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 13/04/2026 13:05
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #42 — Les paso el pago
+ID: h0042
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 25/04/2026 13:15
+De: admin@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Les mando la captura de la transferencia al proveedor para que la registren. Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 26/04/2026 10:57
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #43 — No encuentro la factura
+ID: h0043
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 07/01/2026 15:39
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Buenas, necesito la factura del mes de diciembre, ¿la pueden mandar de nuevo? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 07/01/2026 18:39
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: application/pdf
+Texto: Hola, Las facturas se envían el día 5 de cada mes a la casilla de compras de ustedes y además quedan guardadas en la carpeta compartida de Drive "Facturas 2026", ordenadas por mes. Les reenviamos la de diciembre adjunta. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 07/01/2026 21:39
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #44 — Venta al exterior
+ID: h0044
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 23/02/2026 14:46
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿Cómo facturamos una venta a un cliente del exterior? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 24/02/2026 10:46
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #45 — Nota de crédito
+ID: h0045
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 06/02/2026 12:44
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nos devolvió mercadería, ¿cómo hacemos la nota de crédito? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 07/02/2026 10:44
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #46 — Pedido de NC
+ID: h0046
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 21/12/2025 17:13
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nos devolvió mercadería, ¿cómo hacemos la nota de crédito? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 23/12/2025 10:34
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 23/12/2025 13:34
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #47 — Factura con datos mal
+ID: h0047
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 11/03/2026 14:57
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: La factura salió con el CUIT equivocado, ¿cómo la corregimos? Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 12/03/2026 10:56
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Una factura electrónica no se puede modificar una vez emitida. El procedimiento es emitir una nota de crédito que anule la factura original y luego una factura nueva con los datos correctos. Para hacerlo necesitamos el número de la factura y los datos correctos del cliente. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 12/03/2026 13:56
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #48 — ¿Cuándo se paga el IVA?
+ID: h0048
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 17/04/2026 10:27
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesito saber hasta cuándo tenemos para pagar el IVA de marzo. Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 17/04/2026 18:27
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, El IVA vence según la terminación del CUIT: para ustedes (terminación 7) vence el día 22 del mes siguiente. Además, el calendario completo del año está en la carpeta compartida "Vencimientos 2026" y les enviamos un recordatorio 5 días antes de cada vencimiento. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #49 — Consulta tipo de factura
+ID: h0049
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 10/10/2025 10:12
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nuevo es monotributista, ¿qué tipo de factura le corresponde? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 11/10/2025 10:12
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Ustedes son responsables inscriptos: a otro responsable inscripto le corresponde factura A; a monotributistas, exentos y consumidores finales, factura B. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #50 — Venta al exterior
+ID: h0050
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 05/01/2026 10:30
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 05/01/2026 16:30
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 05/01/2026 19:30
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #51 — Corregir factura
+ID: h0051
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 20/12/2025 13:59
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: La factura salió con el CUIT equivocado, ¿cómo la corregimos? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 21/12/2025 12:59
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Una factura electrónica no se puede modificar una vez emitida. El procedimiento es emitir una nota de crédito que anule la factura original y luego una factura nueva con los datos correctos. Para hacerlo necesitamos el número de la factura y los datos correctos del cliente. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 21/12/2025 15:59
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #52 — Consulta vencimientos
+ID: h0052
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 19/04/2026 16:27
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Hola, ¿me confirman la fecha de vencimiento del IVA de este mes? Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 20/04/2026 13:27
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, El IVA vence según la terminación del CUIT: para ustedes (terminación 7) vence el día 22 del mes siguiente. Además, el calendario completo del año está en la carpeta compartida "Vencimientos 2026" y les enviamos un recordatorio 5 días antes de cada vencimiento. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 20/04/2026 16:27
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #53 — Consulta tipo de factura
+ID: h0053
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 11/01/2026 11:26
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nuevo es monotributista, ¿qué tipo de factura le corresponde? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 12/01/2026 10:38
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Ustedes son responsables inscriptos: a otro responsable inscripto le corresponde factura A; a monotributistas, exentos y consumidores finales, factura B. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 12/01/2026 13:38
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #54 — Vencimiento IVA
+ID: h0054
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 13/11/2025 15:36
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesito saber hasta cuándo tenemos para pagar el IVA de octubre. Gracias, Lucas
+
+[Mensaje 2] Enviado (Nosotros) — 14/11/2025 18:36
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, El IVA vence según la terminación del CUIT: para ustedes (terminación 7) vence el día 22 del mes siguiente. Además, el calendario completo del año está en la carpeta compartida "Vencimientos 2025" y les enviamos un recordatorio 5 días antes de cada vencimiento. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 14/11/2025 21:36
+De: lucas.ferro@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #55 — Exportación
+ID: h0055
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 21/12/2025 15:08
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿Cómo facturamos una venta a un cliente del exterior? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 22/12/2025 17:08
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #56 — Factura para cliente de Uruguay
+ID: h0056
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 03/01/2026 10:51
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: ¿Cómo facturamos una venta a un cliente del exterior? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 03/01/2026 12:51
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #57 — Nota de crédito
+ID: h0057
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 26/10/2025 12:17
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nos devolvió mercadería, ¿cómo hacemos la nota de crédito? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 27/10/2025 10:11
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 27/10/2025 13:11
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #58 — Exportación
+ID: h0058
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 18/01/2026 10:48
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Tenemos un cliente en Uruguay, ¿qué factura le tenemos que hacer? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 19/01/2026 10:06
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, A clientes del exterior se les emite factura E (exportación). Necesitamos los datos fiscales del cliente en su país, la condición de venta (FOB, CIF, etc.) y la moneda. Si es mercadería, además hace falta el permiso de embarque del despachante. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 19/01/2026 13:06
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #59 — Devolución de mercadería
+ID: h0059
+Cantidad de mensajes: 2
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 26/10/2025 12:41
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Un cliente nos devolvió mercadería, ¿cómo hacemos la nota de crédito? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 27/10/2025 10:17
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+─────────────────────────────────────────
+HILO #60 — Pedido de NC
+ID: h0060
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 01/05/2026 17:36
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesitamos emitir una nota de crédito por una devolución. ¿Qué datos les pasamos? Gracias, Mariela
+
+[Mensaje 2] Enviado (Nosotros) — 02/05/2026 12:36
+De: facturacion@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 02/05/2026 15:36
+De: mariela.paz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #61 — Comprobante de pago
+ID: h0061
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 30/05/2026 11:54
+De: admin@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Hola, les paso el pantallazo del pago a Transportes del Sur. Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 31/05/2026 10:31
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 31/05/2026 13:31
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #62 — Nota de crédito
+ID: h0062
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 09/03/2026 14:33
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesitamos emitir una nota de crédito por una devolución. ¿Qué datos les pasamos? Gracias, Carla
+
+[Mensaje 2] Enviado (Nosotros) — 10/03/2026 13:33
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 10/03/2026 16:33
+De: carla.benitez@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #63 — Devolución de mercadería
+ID: h0063
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 22/10/2025 11:26
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Necesitamos emitir una nota de crédito por una devolución. ¿Qué datos les pasamos? Gracias, Admin
+
+[Mensaje 2] Enviado (Nosotros) — 22/10/2025 14:26
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para emitir la nota de crédito por devolución necesitamos: número de la factura original, detalle de los productos devueltos con cantidades e importes, y el remito de devolución firmado. Con eso la emitimos en el día. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 22/10/2025 17:26
+De: admin@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.
+
+─────────────────────────────────────────
+HILO #64 — Pago proveedor
+ID: h0064
+Cantidad de mensajes: 3
+─────────────────────────────────────────
+
+[Mensaje 1] Recibido (Cliente) — 02/06/2026 13:48
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: image/jpeg  ⚠ POSIBLE SCREENSHOT SIN PDF ADJUNTO
+Texto: Hola, les paso el pantallazo del pago a Transportes del Sur. Gracias, Jonatan
+
+[Mensaje 2] Enviado (Nosotros) — 03/06/2026 16:48
+De: nicolas.vera@estudio-ejemplo.com.ar
+Adjuntos: ninguno
+Texto: Hola, Para registrar el pago necesitamos el comprobante en PDF que emite el banco (no una captura de pantalla) y la factura del proveedor. Con la captura no podemos verificar el número de operación ni la cuenta de destino. Saludos, Equipo de Facturación Estudio Contable Ejemplo
+
+[Mensaje 3] Recibido (Cliente) — 03/06/2026 19:48
+De: jonatan.ruiz@cliente-ejemplo.com
+Adjuntos: ninguno
+Texto: Perfecto, muchas gracias.

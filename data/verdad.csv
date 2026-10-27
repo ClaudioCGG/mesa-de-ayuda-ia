@@ -1,0 +1,12 @@
+Mensaje ID,tema,repetida,desorden,motivo
+m100153,reenvio_factura,True,False,repetida: ya se respondió a otras personas; quien pregunta es nuevo en el cliente
+m100154,cuit_erroneo,True,False,repetida: ya se respondió a otras personas; quien pregunta es nuevo en el cliente
+m100155,vencimiento_iva,True,False,repetida: ya se respondió a otras personas; quien pregunta es nuevo en el cliente
+m100156,nota_credito_devolucion,True,False,repetida: ya se respondió a otras personas; quien pregunta es nuevo en el cliente
+m100157,factura_exterior,True,False,repetida: ya se respondió a otras personas; quien pregunta es nuevo en el cliente
+m100158,tipo_factura,True,False,repetida: ya se respondió a otras personas; quien pregunta es nuevo en el cliente
+m100159,comprobante_pago,True,True,"desorden: captura en lugar de comprobante, ya se explicó varias veces"
+m100160,reenvio_factura,True,True,desorden: la misma persona ya lo consultó y la factura está en la carpeta compartida
+m100161,anticipo,False,False,"consulta nueva, sin antecedente"
+m100162,certificado_ganancias,False,False,"consulta nueva, sin antecedente"
+m100163,domicilio_fiscal,False,False,"consulta nueva, sin antecedente"
