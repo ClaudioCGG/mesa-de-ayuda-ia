@@ -312,10 +312,11 @@ function hojaBandeja() {
 
 function anotar(hoja, c, r, borrador) {
   var link = 'https://mail.google.com/mail/u/0/#all/' + c.hilo.getId();
+  // Todo lo que viene del mail o del modelo pasa por seguro(): no se escribe como fórmula
   hoja.appendRow([
-    c.mensaje.getDate(), c.mensaje.getId(), c.hilo.getId(), c.mensaje.getFrom(), c.mensaje.getSubject(),
-    c.mensaje.getPlainBody().substring(0, CONFIG.LARGO_RESUMEN).replace(/\n/g, ' '),
-    r.clasificacion, r.tono, r.antecedente, r.alertas.join('\n'), r.paraRevisar, r.borrador,
+    c.mensaje.getDate(), c.mensaje.getId(), c.hilo.getId(), seguro(c.mensaje.getFrom()), seguro(c.mensaje.getSubject()),
+    seguro(c.mensaje.getPlainBody().substring(0, CONFIG.LARGO_RESUMEN).replace(/\n/g, ' ')),
+    r.clasificacion, r.tono, seguro(r.antecedente), seguro(r.alertas.join('\n')), seguro(r.paraRevisar), seguro(r.borrador),
     '', r.clasificacion === 'Error' ? 'Descartado' : ESTADOS[0], '', '', ''
   ]);
   var fila = hoja.getLastRow();

