@@ -245,6 +245,17 @@ const filaFormula = historialHoja.filas.find((f) => f[1] === 'formula');
 assert.ok(filaFormula[6].startsWith("'=IMPORTDATA"), 'asunto como texto');
 assert.ok(filaFormula[7].startsWith("'-Consulta"), 'texto como texto');
 assert.strictEqual(ctx.seguro('Hola'), 'Hola');
+
+// Excluir: un mensaje marcado sale de los expedientes y de los antecedentes, sin borrarse
+const colExcluir = historialHoja.filas[0].indexOf('Excluir');
+assert.ok(colExcluir > 0, 'la columna Excluir existe');
+assert.ok(ctx.armarExpedientes().includes('IMPORTDATA'));
+filaFormula[colExcluir] = 'sí';
+assert.ok(!ctx.armarExpedientes().includes('IMPORTDATA'), 'el mensaje excluido no va a los expedientes');
+historialHoja.filas.filter((f) => f[1] === 't3').forEach((f) => { f[colExcluir] = true; });
+assert.ok(!('t3' in ctx.indiceHistorial()), 'un hilo excluido no sirve como antecedente');
+historialHoja.filas.filter((f) => f[1] === 't3').forEach((f) => { f[colExcluir] = ''; });
+assert.ok(historialHoja.filas.some((f) => f[1] === 'formula'), 'la fila sigue en la hoja');
 assert.strictEqual(ctx.seguro('+54 11'), "'+54 11");
 assert.ok(llamadas.every((l) => l.clave === 'clave-de-prueba' && l.url.includes(':generateContent')));
 

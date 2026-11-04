@@ -26,7 +26,8 @@ var CONFIG = {
 var ENCABEZADOS = [
   'Fecha', 'Hilo ID', 'Mensaje ID', 'Dirección',
   'Remitente', 'Destinatario', 'Asunto', 'Resumen / Mensaje',
-  'Tiene Adjuntos', 'Tipos de Adjuntos', 'Posible Screenshot (sin PDF)'
+  'Tiene Adjuntos', 'Tipos de Adjuntos', 'Posible Screenshot (sin PDF)',
+  'Excluir'   // marcar con "sí" (o una casilla) para sacar un mensaje del historial sin borrarlo
 ];
 
 
@@ -49,8 +50,28 @@ function onOpen() {
 function hojaHistorial() {
   var libro = SpreadsheetApp.getActiveSpreadsheet();
   var hoja = libro.getSheetByName(CONFIG.HOJA_HISTORIAL) || libro.insertSheet(CONFIG.HOJA_HISTORIAL);
-  if (hoja.getLastRow() === 0) hoja.appendRow(ENCABEZADOS);
+  if (hoja.getLastRow() === 0) {
+    hoja.appendRow(ENCABEZADOS);
+  } else {
+    // Hojas creadas con una versión anterior: se agregan los encabezados que falten al final
+    var actuales = hoja.getRange(1, 1, 1, ENCABEZADOS.length).getValues()[0];
+    ENCABEZADOS.forEach(function (h, i) {
+      if (actuales[i] === '' && actuales.indexOf(h) === -1) hoja.getRange(1, i + 1).setValues([[h]]);
+    });
+  }
   return hoja;
+}
+
+
+/**
+ * Si una fila del historial está marcada para excluir. Sirve para sacar un mail
+ * sospechoso (o con datos que no deberían circular) de los expedientes y de los
+ * antecedentes, sin borrarlo de la hoja.
+ */
+function excluido(fila, col) {
+  if (col['Excluir'] === undefined) return false;
+  var v = fila[col['Excluir']];
+  return v === true || /^(s[ií]|x|true|1)$/i.test(String(v).trim());
 }
 
 
@@ -96,7 +117,8 @@ function extraerMails() {
         seguro(de), seguro(para), seguro(msg.getSubject()),
         seguro(msg.getPlainBody().substring(0, CONFIG.LARGO_RESUMEN).replace(/\n/g, ' ')),
         adjuntos.length > 0, tipos.join(', '),
-        tieneImagen && !tienePdf   // el cliente mandó una captura en lugar del comprobante
+        tieneImagen && !tienePdf,  // el cliente mandó una captura en lugar del comprobante
+        ''                         // Excluir: lo completa una persona si hace falta
       ]);
       existentes.add(idMsg);
     });
@@ -143,6 +165,7 @@ function armarExpedientes(excluirMensaje) {
   var orden = [];
   datos.slice(1).forEach(function (fila) {
     if (excluirMensaje && fila[col['Mensaje ID']] === excluirMensaje) return;
+    if (excluido(fila, col)) return;
     var id = fila[col['Hilo ID']];
     if (!hilos[id]) { hilos[id] = []; orden.push(id); }
     hilos[id].push(fila);

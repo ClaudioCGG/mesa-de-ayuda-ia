@@ -284,6 +284,7 @@ function indiceHistorial() {
   datos[0].forEach(function (h, i) { col[h] = i; });
   var hilos = {};
   datos.slice(1).forEach(function (f) {
+    if (excluido(f, col)) return;
     var id = String(f[col['Hilo ID']]);
     var h = hilos[id] || (hilos[id] = { asunto: f[col['Asunto']], clientes: [], fechaRespuesta: null });
     if (f[col['Dirección']] === 'Recibido (Cliente)') {
@@ -378,7 +379,7 @@ function respuestasDelEstudio() {
   var col = {};
   datos[0].forEach(function (h, i) { col[h] = i; });
   return datos.slice(1)
-    .filter(function (f) { return f[col['Dirección']] === 'Enviado (Nosotros)'; })
+    .filter(function (f) { return f[col['Dirección']] === 'Enviado (Nosotros)' && !excluido(f, col); })
     .map(function (f) { return f[col['Resumen / Mensaje']]; })
     .join('\n');
 }
