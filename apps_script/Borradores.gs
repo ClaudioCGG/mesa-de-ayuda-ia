@@ -123,7 +123,7 @@ function consultasSinResponder() {
     if (mensajes.some(function (m) { return m.isDraft(); })) return;  // alguien ya está respondiendo
     var enviados = mensajes.filter(function (m) { return !m.isDraft() && !m.isInTrash(); });
     var ultimo = enviados[enviados.length - 1];
-    if (ultimo && ultimo.getFrom().indexOf(dominio) !== -1) salida.push({ hilo: hilo, mensaje: ultimo });
+    if (ultimo && esDelCliente(ultimo.getFrom())) salida.push({ hilo: hilo, mensaje: ultimo });
   });
   return salida;
 }
@@ -324,7 +324,7 @@ function actualizarEstados(hoja) {
     if (!hilo) return;
     var desde = new Date(f[C['Fecha']]).getTime();
     var respuesta = hilo.getMessages().filter(function (m) {
-      return !m.isDraft() && m.getDate().getTime() > desde && m.getFrom().indexOf(CONFIG.DOMINIO_CLIENTE) === -1;
+      return !m.isDraft() && m.getDate().getTime() > desde && !esDelCliente(m.getFrom());
     })[0];
     if (!respuesta) return;
     var parecido = similitud(sinCita(respuesta.getPlainBody()), String(f[C['Borrador']]));

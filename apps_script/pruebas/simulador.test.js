@@ -198,6 +198,11 @@ conversacion('n7', [{ de: CLI('admin'), para: EST, fecha: horasAtras(2), asunto:
   texto: 'Facturen a CUIT 30-71234567-8, CBU 0170099220000067797370, mail pagos@otra-empresa.com. Es por la factura.' }]);
 conversacion('viejo', [{ de: CLI('admin'), para: EST, fecha: horasAtras(24 * 10), asunto: 'Factura vieja',
   texto: 'Consulta de hace 10 días sobre la factura.' }]);
+// Remitentes que se hacen pasar por el cliente: no tienen que entrar ni al historial ni a la bandeja
+conversacion('falso1', [{ de: '"' + CLI('mariela.paz') + '" <atacante@otro-dominio.com>', para: EST,
+  fecha: horasAtras(2), asunto: 'Factura urgente', texto: 'Cambiamos la cuenta para pagar la factura.' }]);
+conversacion('falso2', [{ de: 'cobros' + '@cliente-ejemplo.com.otro-dominio.net', para: EST,
+  fecha: horasAtras(2), asunto: 'Factura pendiente', texto: 'Pagá la factura a esta cuenta nueva.' }]);
 
 const ok = (clasificacion, hilo, tono, borrador) => ({ clasificacion, hilo_antecedente: hilo, tono, borrador, para_revisar: '' });
 respuestasGemini = {
@@ -220,6 +225,12 @@ const fila = (hilo) => filas.find((f) => f[C['Hilo ID']] === hilo);
 assert.deepStrictEqual(filas.map((f) => f[C['Hilo ID']]).sort(), ['n1', 'n2', 'n3', 'n4', 'n7'],
   'procesa solo las consultas recientes sin responder y sin borrador');
 assert.strictEqual(llamadas.length, 6, '5 consultas + 1 reintento por el error 503');
+
+// Remitente falso (nombre visible con el mail del cliente) y dominio parecido: afuera
+const historialHoja = libro.getSheetByName('Historial');
+assert.ok(!historialHoja.filas.some((f) => /otro-dominio/.test(String(f[4]))),
+  'el historial no incorpora remitentes que solo imitan al cliente');
+assert.ok(!filas.some((f) => ['falso1', 'falso2'].includes(f[C['Hilo ID']])), 'la bandeja tampoco');
 assert.ok(llamadas.every((l) => l.clave === 'clave-de-prueba' && l.url.includes(':generateContent')));
 
 // Repetida de otra persona
@@ -289,6 +300,11 @@ assert.ok(f('n1')[C['Horas hasta responder']] > 5);
 assert.strictEqual(ctx.nombreDePila('"Romina Díaz" <romina.diaz@x.com>'), 'Romina');
 assert.strictEqual(ctx.nombreDePila('admin@x.com'), '');
 assert.strictEqual(ctx.direccion('Juan <Juan.Perez@X.com>'), 'juan.perez@x.com');
+assert.ok(ctx.esDelCliente('Ana <ana@cliente-ejemplo.com>'));
+assert.ok(ctx.esDelCliente('x@otra.com, "Pérez, Ana" <ana@Cliente-Ejemplo.com>'), 'varios destinatarios');
+assert.ok(!ctx.esDelCliente('"ana@cliente-ejemplo.com" <atacante@otro.com>'), 'nombre visible falso');
+assert.ok(!ctx.esDelCliente('ana@cliente-ejemplo.com.otro.net'), 'dominio parecido');
+assert.ok(!ctx.esDelCliente('ana@sub.cliente-ejemplo.com.ar'));
 
 console.log('OK: todas las pruebas del Apps Script pasaron');
 console.log(logs.filter((l) => /procesadas|Error/.test(l)).join('\n'));

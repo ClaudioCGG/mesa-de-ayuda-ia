@@ -81,9 +81,9 @@ function extraerMails() {
 
       var de = msg.getFrom();
       var para = msg.getTo();
-      var delCliente = de.indexOf(dominio) !== -1;
-      var alCliente = para.indexOf(dominio) !== -1;
-      if (!delCliente && !alCliente) return;  // control de seguridad: el dominio tiene que estar en el mensaje
+      var delCliente = esDelCliente(de);
+      var alCliente = esDelCliente(para);
+      if (!delCliente && !alCliente) return;  // control de seguridad: la dirección real tiene que ser del dominio
 
       var adjuntos = msg.getAttachments();
       var tipos = adjuntos.map(function (a) { return a.getContentType(); });
@@ -173,6 +173,34 @@ function armarExpedientes(excluirMensaje) {
     partes.push('');
   });
   return partes.join('\n');
+}
+
+
+/**
+ * Las direcciones reales de un campo De/Para, sin los nombres visibles.
+ * '"pepe@cliente.com" <otro@x.com>, Ana <ana@cliente.com>' → ['otro@x.com', 'ana@cliente.com']
+ */
+function direcciones(campo) {
+  var sinNombres = String(campo).replace(/"[^"]*"/g, '');  // el nombre visible puede contener un mail falso
+  var salida = [];
+  sinNombres.split(',').forEach(function (parte) {
+    var entre = parte.match(/<([^>]+)>/);
+    var suelta = entre ? null : parte.match(/[^\s<>]+@[^\s<>]+/);
+    var d = entre ? entre[1] : suelta ? suelta[0] : '';
+    if (d) salida.push(d.trim().toLowerCase());
+  });
+  return salida;
+}
+
+
+/**
+ * Si alguna dirección real del campo termina exactamente en el dominio del cliente.
+ * Rechaza nombres visibles falsos ('"x@cliente.com" <atacante@otro.com>') y dominios
+ * parecidos ('x@cliente.com.otro.net'), que un indexOf dejaría pasar.
+ */
+function esDelCliente(campo) {
+  var dominio = CONFIG.DOMINIO_CLIENTE.toLowerCase();
+  return direcciones(campo).some(function (d) { return d.slice(-dominio.length) === dominio; });
 }
 
 
