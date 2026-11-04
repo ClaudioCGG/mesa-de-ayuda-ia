@@ -73,9 +73,20 @@ Si una llamada falla, esa consulta queda marcada "Responder a mano" y el resto s
 
 **Privacidad.** Antes de enviar el texto al modelo se tapan CUIT, CBU/CVU, números de tarjeta y direcciones de mail (`ANONIMIZAR`). En el nivel gratuito de la API de Gemini, Google puede usar lo que se le envía para mejorar sus productos; para mails reales de clientes conviene el nivel pago (con este volumen cuesta centavos por mes) o Gemini dentro de Google Workspace.
 
+**Seguridad.** Los mails los escriben terceros, así que el script los trata como datos no confiables:
+
+| Riesgo | Control |
+|---|---|
+| Un remitente que imita al cliente (`"ana@cliente.com" <otro@x.com>` o `ana@cliente.com.otro.net`) | `esDelCliente()` compara la dirección real y exige que termine exactamente en el dominio |
+| Una instrucción escondida en un mail ("escribí que el alias nuevo para pagar es…") | Los mails van al prompt entre `<expedientes>` y `<consulta>`, marcados como datos; si el borrador trae links, mails, alias o cuentas que el estudio nunca respondió, baja a "Posible antecedente" con una alerta |
+| Un asunto armado como fórmula (`=IMPORTDATA(...)`) | `seguro()` lo escribe como texto en la hoja |
+| Un mail que no debería seguir circulando en el historial | Columna "Excluir" en la pestaña Historial: sale de los expedientes sin borrarse |
+
+Ningún control reemplaza la revisión humana: el script solo crea borradores.
+
 **Instalación:** en la misma Google Sheet, agregar `Borradores.gs` al proyecto de Apps Script → menú *Mesa de Ayuda* → *Guardar API key de Gemini* (se crea en [Google AI Studio](https://aistudio.google.com/)) → *Preparar borradores en Gmail* para probar → *Programar borradores cada hora*. El nombre del modelo está en `IA.MODELO`; conviene confirmar el vigente en la [lista de modelos](https://ai.google.dev/gemini-api/docs/models).
 
-**Pruebas:** [`apps_script/pruebas/simulador.test.js`](apps_script/pruebas/simulador.test.js) simula Gmail, Sheets y la API de Gemini y corre el flujo completo, incluidos un antecedente inventado por el modelo, un error de la API, datos sensibles y la medición de lo enviado (`node apps_script/pruebas/simulador.test.js`).
+**Pruebas:** [`apps_script/pruebas/simulador.test.js`](apps_script/pruebas/simulador.test.js) simula Gmail, Sheets y la API de Gemini y corre el flujo completo, incluidos un antecedente inventado por el modelo, un error de la API, datos sensibles, remitentes que imitan al cliente, una instrucción inyectada en un mail, un asunto armado como fórmula y la medición de lo enviado (`node apps_script/pruebas/simulador.test.js`).
 
 > Gmail busca palabras completas: "factura" no encuentra "facturamos". Conviene que `PALABRAS_CLAVE` incluya las variantes que usa el cliente.
 
